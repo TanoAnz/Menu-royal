@@ -11,8 +11,6 @@ export class Card2Component implements OnInit {
   link: any;
   constructor(public mainService: MainService, private route: ActivatedRoute){}
   ngOnInit(): void {
-   this.link = this.route.parent?.component?.name
-   console.log(this.link)
   }
 
 }
