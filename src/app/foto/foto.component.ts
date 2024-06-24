@@ -6,10 +6,12 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrl: './foto.component.css'
 })
 export class FotoComponent implements OnInit{
-  @Input() link: any; 
+  @Input() link!: string; 
   constructor(){
-
+    
   }
-  ngOnInit(){}
+  ngOnInit() {
+    console.log('Link to image:', this.link);
+  }
 
 }
