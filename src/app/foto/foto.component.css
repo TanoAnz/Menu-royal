@@ -77,14 +77,3 @@
     border-radius: 10px;
     z-index: 2;
     }
-  .card:hover, .card:focus {
-    animation: phoneButtonEffect 0.2s linear;
-  }
-  @keyframes phoneButtonEffect {
-    50% {
-      transform: scale(1.1)
-    }
-    100% {
-      transform: scale(1)
-    }
-  }
