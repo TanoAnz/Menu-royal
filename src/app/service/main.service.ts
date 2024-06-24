@@ -12,7 +12,7 @@ export class MainService {
   BevandeEPanini= ['Panini', 'Hamburger', 'Bevande', 'Birre'];
   Menu={
     Panini: {
-      nomi: ['-Patatine Fritte',  '-Mozzarelline', '-Bocconcini di Pollo','-Anelli Di Cipolla', '-Bacon Chips', '-Misto Fritto', '-Alette',
+      nomi: ['-Patatine Fritte',  '-Mozzarelline', '-Bocconcini di Pollo','-Anelli Di Cipolla', '-Bacon Chips', '-Misto Fritto (a persona)', '-Alette',
         '1-Ragazzino', '2-Classico', '3-Rucola', '4-Salsiccia', '5-Pollo', '6-Top Chicken', '7-Mortadella',
         '14-Classic Burger', '15-Maccarrone', '16-Pistacchio Burger', '17-Ovetto', '18-Pollo', '19-Polpettoso', '20-Royal', '21-Angus',
         '8-Completo', '9-Kabalas', '10-Moderno', '11-Contemporaneo', '12-Vallo a Scambiare', '13-Al Piatto',
@@ -23,7 +23,7 @@ export class MainService {
         'kebab, lattuga, pomodoro, cipolla, cetrioli, mais, salsa yogurt e salsa ', 'kebab, crauti, cheddar, patatine fritte, salsa BBQ e salsa rosa', 'kebab, cheddar, cipolla, salsa yogurt e patatine fritte.', 'kebab, bacon, cheddar, patatine e salsa BBQ', 'kebab, crauti, cheddar, patatine fritte, salsa BBQ e salsa rosa', 'kebab',
 
       ],
-      prezzo: ['2.00€,  3.00€,  4.00€',  '2.00€, 3.00€, 4.00€',  '4.00€', '4.00€', '5.00€', '2.00€', '5.00€',
+      prezzo: ['2.00€,  3.00€,  4.00€',  '2.00€, 3.00€, 4.00€',  '4.00€', '4.00€', '5.00€', '3.00€', '5.00€',
         '2.50€', '3.00€', '4.00€', '4.00€', '5.00€', '4.50€', '5.00€',
         '7.00€', '9.00€','8.00€', '8.00€', '6.00€', '6.00€', '11.00€', '11.00€',
         '7.00€', '7.00€', '7.00€', '7.00€', '7.00€', '5.00€',
