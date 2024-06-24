@@ -12,6 +12,7 @@ import { BevandeComponent } from './bevande/bevande.component';
 import { AnalcoliciComponent } from './analcolici/analcolici.component';
 import { DrinkComponent } from './drink/drink.component';
 import { Card6Component } from './card6/card6.component';
+import { CardBevandeComponent } from './card-bevande/card-bevande.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent},
@@ -24,6 +25,7 @@ const routes: Routes = [
   {path:'Kebab', component: KebabComponent},
   {path:'Carne', component: CarneComponent},
   {path:'Bevande', component: BevandeComponent, children:[
+    {path: '', component: CardBevandeComponent},
     {path: '2', component: AnalcoliciComponent},
     {path: '3', component: DrinkComponent},
     {path: '4', component: Card6Component}
