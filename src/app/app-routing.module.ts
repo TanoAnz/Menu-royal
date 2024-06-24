@@ -1,7 +1,5 @@
 import { Input, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AppComponent } from './app.component';
-import { CardComponent } from './card/card.component';
 import { PaniniComponent } from './panini/panini.component';
 import { HomeComponent } from './home/home.component';
 import { PaniniClassiciComponent } from './panini/panini-classici/panini-classici.component';
@@ -26,7 +24,6 @@ const routes: Routes = [
   {path:'Kebab', component: KebabComponent},
   {path:'Carne', component: CarneComponent},
   {path:'Bevande', component: BevandeComponent, children:[
-    {path: '', component: Card2Component},
     {path: '2', component: AnalcoliciComponent},
     {path: '3', component: DrinkComponent},
     {path: '4', component: Card6Component}

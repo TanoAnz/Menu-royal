@@ -22,6 +22,7 @@ import { KebabComponent } from './kebab/kebab.component';
 import { PaniniComponent } from './panini/panini.component';
 import { PaniniClassiciComponent } from './panini/panini-classici/panini-classici.component';
 import { PaniniSfiziosiComponent } from './panini/panini-sfiziosi/panini-sfiziosi.component';
+import { Card7Component } from './card7/card7.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { PaniniSfiziosiComponent } from './panini/panini-sfiziosi/panini-sfizios
     KebabComponent,
     PaniniComponent,
     PaniniClassiciComponent,
-    PaniniSfiziosiComponent
+    PaniniSfiziosiComponent,
+    Card7Component
   ],
   imports: [
     BrowserModule,
