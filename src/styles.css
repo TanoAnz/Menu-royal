@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+.logo{
+    max-width:300px;
+    display: flex;
+    justify-content: center;
+}
+.logobox{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+@media all and (min-width:1280px){
+    .logo{
+        width: 300px;
+    }
+}

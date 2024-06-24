@@ -1,0 +1,20 @@
+<div class="col-xl-4">
+    <div class="card">
+        <div class="card__title">SUPPLEMENTI</div>
+        <div *ngFor="let i of [0, 1, 2, 3, 4, 5]">
+        <div class="card__subtitle">{{mainService.Menu.Panini.supplementi[i]}}</div>
+        <div class="loader"></div>
+        </div> 
+        <div class="card__title">TIPOLOGIA DI PANE</div>
+        <div *ngFor="let i of [0, 1, 2]">
+        <div class="card__subtitle">{{mainService.Menu.Panini.pane[i]}}</div>
+        <div class="loader"></div>
+        </div> 
+        <div class="card__title">LE NOSTRE SALSE</div>
+        <div *ngFor="let i of [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]">
+        <div class="card__subtitle">{{mainService.Menu.Panini.salsa[i]}}</div>
+        <div class="loader"></div>
+        </div> 
+    </div>
+    </div>
+
