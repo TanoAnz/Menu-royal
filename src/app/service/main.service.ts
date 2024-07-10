@@ -20,7 +20,7 @@ export class MainService {
       desc: [ 'Piccole, Medie, Grandi.', 'Piccole, Medie, Grandi.', '10pz di Bocconcini di Pollo', '10pz di Anelli di Cipolla', 'Patatine, cheddar e bacon', 'Patatine fritte, mozzarelline, arancinette, olive, anelli di cipolla e panelle', 'Alette di pollo in salsa piccante (6pz)',
         'wurstel, patatine fritte, maionese e ketchup', 'wurstel, pomodoro, lattuga, maionese e ketchup', 'prosciutto crudo, pomodoro, mozzarella, rucola, scaglie di grana e salsa di aceto balsamico', 'salsiccia di maiale, pomodoro, lattuga, cipolla caramellata, salsa BBQ', 'cotoletta di pollo panato, pomodoro, lattuga, provola, maionese e patatine ', 'cotoletta di pollo panato, patatine, provola dolce e maionese', 'mortadella, mozzarella di bufala, crema di pistacchio e granella di pistacchio',
         'hamburger di maiale(100g), cheddar, bacon, pomodoro, lattuga, cipolla  caramellata, salsa BBQ e maionese', 'doppio hamburger di maiale(100g), cheddar, bacon, pomodoro, anelli di cipolla, rucola e salsa burger.', 'hamburger di maiale(100g), pomodoro ciliegino, burrata, crema di pistacchio e  granella di pistacchio.', 'hamburger di maiale(100g), provola, bacon, lattuga, uovo, cipolla caramellata e salsa BBQ', 'cotoletta di pollo panata, cheddar, pomodoro, lattuga, cipolla caramellata, salsa sweet chilli e mayo', 'polpettine fritte, provola, pomodoro ciliegino, cipolla caramellata e salsa burger', 'hamburger di scottona (200g), mozzarella di bufala, pomodoro ciliegino, rucola, salsa di aceto balsamico', 'hamburger di angus (200g), cheddar, bacon, pomodoro ciliegino, lattuga, cipolla caramellata, maionese, salsa BBQ',
-        'kebab, lattuga, pomodoro, cipolla, cetrioli, mais, salsa yogurt e salsa ', 'kebab, salsa kebab, cheddar, cipolla, pomodoro, cetrioli e lattuga', 'kebab, cheddar, cipolla, salsa yogurt e patatine fritte.', 'kebab, bacon, cheddar, patatine e salsa BBQ', 'kebab, crauti, cheddar, patatine fritte, salsa BBQ e salsa rosa', 'kebab',
+        'kebab, lattuga, pomodoro, cipolla, cetrioli, mais, salsa yogurt e salsa piccante ', 'kebab, salsa kebab, cheddar, cipolla, pomodoro, cetrioli e lattuga', 'kebab, cheddar, cipolla, salsa yogurt e patatine fritte.', 'kebab, bacon, cheddar, patatine e salsa BBQ', 'kebab, crauti, cheddar, patatine fritte, salsa BBQ e salsa rosa', 'kebab',
 
       ],
       prezzo: ['2.00€,  3.00€,  4.00€',  '2.00€, 3.00€, 4.00€',  '4.00€', '4.00€', '5.00€', '3.00€', '5.00€',
@@ -29,7 +29,7 @@ export class MainService {
         '7.00€', '7.00€', '7.00€', '7.00€', '7.00€', '5.00€',
         
       ],
-      supplementi:['-Vari +0,50€', '-Burrata +3.00€', '-Hamburger di scottona (200g) +4.00€', '-Hamburger di angus (200g) +4.00€', '-Doppio Hamburger (100g) +2.00€', '-Bacon +1.00€'],
+      supplementi:['-Coperto +0,50€', '-Vari +0,50€', '-Burrata +3.00€', '-Hamburger di scottona (200g) +4.00€', '-Hamburger di angus (200g) +4.00€', '-Doppio Hamburger (100g) +2.00€', '-Bacon +1.00€'],
       pane:['-Panino classico/rotondo', '-Pane', '-Panino di pasta dolce'],
       salsa:['-Barbecue', 'Salsa burger', '-Salsa al bacon affumicato', '-Salsa al bacon affumicato', '-Salsa yogurt', '-Senape', '-Boscaiola', '-Salse piccanti: Suocera, Harissa, Sweet Chilli', '-Salsa tartara', '-Salsa bernese', '-Salsa rosa', '-Salsa al mango']
     },
