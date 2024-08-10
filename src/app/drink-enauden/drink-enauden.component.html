@@ -1,0 +1,19 @@
+<div class="col-xl-4">
+    <div class="card">
+        <div class="card__title">Calice Di Vino</div>
+        <div *ngFor="let drinks of mainService.Menu.drink.vino; let i = index;">
+        <div class="card__subtitle">{{mainService.Menu.drink.vino[i]}}</div>
+        <div class="loader"></div>
+        </div> 
+        <div class="card__title">GIN</div>
+        <div *ngFor="let drinks of mainService.Menu.drink.gin; let i = index;">
+            <div class="card__subtitle">{{mainService.Menu.drink.gin[i]}}</div>
+        <div class="loader"></div>
+        </div> 
+        <div class="card__title">ALTRO</div>
+        <div *ngFor="let drinks of mainService.Menu.drink.altro; let i = index;">
+        <div class="card__subtitle">{{mainService.Menu.drink.altro[i]}}</div>
+        <div class="loader"></div>
+        </div> 
+    </div>
+    </div>

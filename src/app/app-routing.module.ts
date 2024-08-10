@@ -13,6 +13,7 @@ import { AnalcoliciComponent } from './analcolici/analcolici.component';
 import { DrinkComponent } from './drink/drink.component';
 import { Card6Component } from './card6/card6.component';
 import { CardBevandeComponent } from './card-bevande/card-bevande.component';
+import { DrinkEnaudenComponent } from './drink-enauden/drink-enauden.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent},
@@ -30,6 +31,7 @@ const routes: Routes = [
     {path: '3', component: DrinkComponent},
     {path: '4', component: Card6Component}
   ]}, 
+  {path:'Drink', component: DrinkEnaudenComponent},
    
 ];
 

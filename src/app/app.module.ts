@@ -23,6 +23,7 @@ import { PaniniComponent } from './panini/panini.component';
 import { PaniniClassiciComponent } from './panini/panini-classici/panini-classici.component';
 import { PaniniSfiziosiComponent } from './panini/panini-sfiziosi/panini-sfiziosi.component';
 import { CardBevandeComponent } from './card-bevande/card-bevande.component';
+import { DrinkEnaudenComponent } from './drink-enauden/drink-enauden.component';
 
 @NgModule({
   declarations: [
@@ -47,6 +48,7 @@ import { CardBevandeComponent } from './card-bevande/card-bevande.component';
     PaniniClassiciComponent,
     PaniniSfiziosiComponent,
     CardBevandeComponent,
+    DrinkEnaudenComponent,
   ],
   imports: [
     BrowserModule,
