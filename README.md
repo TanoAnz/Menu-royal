@@ -22,7 +22,14 @@ Questa applicazione è un menu digitale per una panineria locale, sviluppata pri
 
 
 
-## Development server
+
+
+## Tecnologie Utilizzate
+**Angular:** Framework principale per lo sviluppo dell'applicazione.
+**HTML5/CSS3:** Per il layout e lo stile dell'app.
+**TypeScript:** Utilizzato per la logica dell'applicazione.
+
+
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
