@@ -4,13 +4,21 @@ Questa applicazione è un menu digitale per una panineria locale, sviluppata pri
 
 ## Funzionalità principali
 **-Navigazione fluida tra le sezioni del menu:** Le diverse categorie del menu sono facilmente accessibili grazie a una navigazione intuitiva.
+
 **-Design responsive:** L'app è ottimizzata per dispositivi mobile, con un layout adattivo che garantisce una buona esperienza utente su schermi piccoli.
+
 **-Sezioni del menu:**
+
 *-Fritture:* Una selezione di fritture disponibili.
+
 *-Panini:* Vari tipi di panini disponibili.
+
 *-Hamburger:* Scelte di hamburger.
+
 *-Kebab:* Offerte di kebab.
+
 *-Bevande:* Varietà di bevande.
+
 
 
 
