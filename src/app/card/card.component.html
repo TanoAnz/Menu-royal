@@ -1,4 +1,4 @@
-<div class="col-xl-4"><a class="card" routerLink="{{mainService.MenuIniziale.linkMenu[i]}}">
+<div class="col-xl-4"><a class="card" (click)="onCardClick(mainService.MenuIniziale.linkMenu[i])">
     <div class="card__img"><img class="immagine" src="assets/images/{{mainService.MenuIniziale.linkImg[i]}}"></div>
     <div class="card__wrapper">
         <div class="card__title">{{mainService.MenuIniziale.nomi[i]}}</div>

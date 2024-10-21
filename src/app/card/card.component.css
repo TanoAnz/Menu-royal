@@ -94,10 +94,7 @@
     box-shadow: 0px 0px 20px -5px #000;
   }
   
-  .card:hover::before {
-    transform: rotate(10deg);
-    box-shadow: 0px 0px 20px -5px #000;
-  }
+
   
   /* remove svg from class ="card__img" and last styles below css code before use */
   .st1 {
@@ -152,3 +149,60 @@
     display: flex;
     justify-content: center;
   }
+  @media (max-width: 1024px) {
+    .card {
+      transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+      background-color: var(--bg-color); /* Mantiene lo sfondo originale */
+    }
+  
+    /* Rimuoviamo qualsiasi cambiamento di sfondo nell'hover */
+    .card::before {
+      content: '';
+      width: 99%;
+      height: 99%;
+      background: transparent; /* Impostato come trasparente per evitare il grigio */
+      position: absolute;
+      z-index: -1;
+      top: 1px;
+      left: 1px;
+      border-radius: 25px;
+      transition: all 0.3s;
+    }
+  
+    .card:hover {
+      transform: scale(1.03) translateY(-5px); /* Leggero zoom e spostamento verso l'alto */
+      box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2); /* Ombra più intensa */
+    }
+  
+    .card__img img {
+      transition: transform 0.3s ease-in-out;
+    }
+  
+    .card:hover .card__img img {
+      transform: scale(1.1); /* Zoom sull'immagine al passaggio */
+    }
+  
+    .card:active {
+      transform: scale(0.98); /* Effetto di compressione al click */
+      box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+    }
+  
+    .card__icon {
+      transition: transform 0.3s ease-in-out;
+    }
+  
+    .card:hover .card__icon {
+      transform: rotate(0); /* Rotazione fluida dell'icona */
+    }
+  
+    .card__title {
+      transition: color 0.3s ease-in-out;
+    }
+  
+    .card:hover .card__title {
+      color: var(--main-color); /* Mantiene il colore del titolo */
+    }
+  }
+  
+  
+
